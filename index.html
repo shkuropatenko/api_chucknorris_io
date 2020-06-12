@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javascript</title>
+	 <!-- Compiled and minified CSS -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+	<main>
+
+		<form action="#" name="newsControlForm">
+			<p>
+				<label>
+					<input name="group1" type="radio" id="random" value="random" checked />
+					<span>Random</span>
+				</label>
+			</p>
+			<div class="row">
+				<p>
+					<label>
+						<input name="group1" type="radio" id="categories" value="categories" />
+						<span>From categories</span>
+					</label>
+				</p>
+				<div class="btn-box">
+					<button value="animal" class="waves-effect waves-light btn-small">animal</button>
+					<button value="career" class="waves-effect waves-light btn-small">career</button>
+					<button value="celebrity" class="waves-effect waves-light btn-small">celebrity</button>
+					<button value="dev" class="waves-effect waves-light btn-small">dev</button>
+				</div>
+			</div>
+			<p>
+				<label>
+					<input class="with-gap" name="group1" type="radio" id="search" value="search" />
+					<span>Search</span>
+				</label>
+			</p>
+			<input type="text" placeholder="Search" id="searchThis">
+		</form>
+		<div class="news-wrap container">
+			<div class="row">
+				
+			</div>
+		</div>
+	</main>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="customHTTP.js"></script>
+	<script src="newsApiService.js"></script>
+	<script src="newsUI.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
